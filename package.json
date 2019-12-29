@@ -1,0 +1,23 @@
+{
+  "name": "with-emotion",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.0",
+    "@emotion/styled": "^10.0.0",
+    "@rebass/forms": "^4.0.6",
+    "@rebass/preset": "^4.0.5",
+    "babel-plugin-emotion": "^10.0.0",
+    "emotion-theming": "^10.0.19",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-text-loop": "^2.3.0",
+    "rebass": "^4.0.7"
+  },
+  "license": "ISC"
+}
