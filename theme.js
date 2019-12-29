@@ -36,6 +36,7 @@ export default {
   buttons: {
     primary: {
       fontSize: '1.25rem',
+      fontWeight: 'bold',
       padding: '1.25rem 3rem',
       color: 'white',
       bg: 'primary',
@@ -44,6 +45,7 @@ export default {
     },
     inverted: {
       fontSize: '1.25rem',
+      fontWeight: 'bold',
       padding: '1.25rem 3rem',
       color: 'primary',
       bg: 'white',

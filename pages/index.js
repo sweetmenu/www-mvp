@@ -45,6 +45,7 @@ export default () => {
             alignItems="flex-start"
             flexDirection="column"
             height={['initial', 'initial', 'initial', '100vh']}
+            minHeight="75vh"
             justifyContent="center"
             p={3}
             pt="64px"
@@ -166,10 +167,12 @@ export default () => {
           height="100vh"
           width="100vw"
           display="flex"
+          flexDirection="column"
           alignItems="center"
           justifyContent="center"
           bg="primary"
           color="white"
+          p={5}
           className="sweetmenu__placeholder">
             <Heading
               as="h2"
@@ -178,6 +181,7 @@ export default () => {
               fontSize={[5,5,5,7]}
               lineHeight={1}
               color="white"
+              mb={4}
               className="sweetmenu__placeholder--title">
               You probably have questions.
             </Heading>
@@ -190,9 +194,23 @@ export default () => {
               color="white"
               margin="0"
               marginBottom={4}
+              maxWidth="540px"
               className="sweetmenu__placeholder--subtitle">
-              As we build our site, I am here to personally answer any questions you might have about Sweetmenu. 
+              As we build our site, I am here to personally answer any questions you might have about Sweetmenu.
+              <br/>
+              <br/>
+              I'll have an answer for you within 12 hours, likely much sooner.
             </Text>
+            <Flex flexDirection={["column", "row", "row", "row"]} className="sweetmenu__placeholder--buttons">
+              <Button as="a" href="tel:+19022223062" fontFamily="body" fontWeight="bold" variant="inverted" mr={[0,3,3,3]} mb={[3,0,0,0]} className="sweetmenu__placeholder--button">
+                Call Chris
+                <Text fontWeight="normal" color="grey" fontSize={2} mt={2}>(902) 222-3062</Text>
+              </Button>
+              <Button as="a" href="mailto:chris@sweetmenu.co?subject=I have a question for Chris" fontFamily="body" fontWeight="bold" variant="inverted" className="sweetmenu__placeholder--button">
+                Email Chris
+                <Text fontWeight="normal" color="grey" fontSize={2} mt={2}>chris@sweetmenu.co</Text>
+              </Button>
+            </Flex>
         </Flex>
       </div>
     </ThemeProvider>

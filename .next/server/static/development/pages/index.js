@@ -2174,7 +2174,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../theme.js */ "./theme.js");
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rebass */ "rebass");
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/Users/Chris/sweetmenu/www-edge/pages/index.js";
+var _jsxFileName = "/Users/Chris/sweetmenu/www/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2257,6 +2257,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     alignItems: "flex-start",
     flexDirection: "column",
     height: ['initial', 'initial', 'initial', '100vh'],
+    minHeight: "75vh",
     justifyContent: "center",
     p: 3,
     pt: "64px",
@@ -2285,7 +2286,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "sweetmenu__brand",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 57
     },
     __self: undefined
   }, __jsx("svg", {
@@ -2300,13 +2301,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     viewBox: "0 0 144.2 32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 67
     },
     __self: undefined
   }, __jsx("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 70
     },
     __self: undefined
   }, __jsx("path", {
@@ -2314,13 +2315,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M16,0c8.8,0,16,7.2,16,16c0,6.2-3.6,11.6-8.8,14.3v-4.2v-7V8.9c-5.1,0-5.6,17.2-5.6,17.2H21v5.1 c-1.6,0.5-3.2,0.8-5,0.8c-1.2,0-2.4-0.1-3.5-0.4V21.1c1.9-0.4,3.3-2.1,3.3-4.1V9.8c0-0.5-0.4-0.9-0.9-0.9c-0.5,0-0.9,0.4-0.9,0.9 V17c0,1-0.6,1.9-1.5,2.2V9.8c0-0.5-0.4-0.9-0.9-0.9s-0.9,0.4-0.9,0.9v9.4C9.8,18.9,9.2,18,9.2,17V9.8c0-0.5-0.4-0.9-0.9-0.9 c-0.5,0-0.9,0.4-0.9,0.9V17c0,2,1.4,3.7,3.3,4.1v10C4.5,28.9,0,23,0,16C0,7.2,7.2,0,16,0z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 71
     },
     __self: undefined
   }), __jsx("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 75
     },
     __self: undefined
   }, __jsx("path", {
@@ -2328,7 +2329,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M47.4,11.2L44.9,12c-0.1-0.5-0.3-1-0.8-1.4c-0.4-0.4-1-0.6-1.8-0.6c-0.7,0-1.2,0.2-1.6,0.5 c-0.4,0.4-0.6,0.8-0.6,1.3c0,0.9,0.5,1.4,1.5,1.6l2,0.4c1.2,0.2,2.2,0.7,2.9,1.5c0.7,0.8,1,1.6,1,2.7c0,1.2-0.5,2.2-1.4,3.1 c-0.9,0.9-2.2,1.3-3.7,1.3c-0.9,0-1.7-0.1-2.4-0.4c-0.7-0.3-1.3-0.6-1.7-1.1c-0.4-0.4-0.8-0.9-1-1.4c-0.2-0.5-0.4-1-0.4-1.5 l2.5-0.7c0.1,0.8,0.4,1.4,0.9,1.9c0.5,0.5,1.3,0.8,2.2,0.8c0.7,0,1.3-0.2,1.7-0.5c0.4-0.3,0.6-0.7,0.6-1.3c0-0.4-0.1-0.8-0.4-1.1 s-0.7-0.5-1.3-0.6l-2-0.4c-1.1-0.2-2-0.7-2.7-1.4c-0.7-0.7-1-1.6-1-2.6c0-1.2,0.5-2.3,1.4-3.1c1-0.8,2.1-1.3,3.5-1.3 c0.8,0,1.5,0.1,2.2,0.3c0.6,0.2,1.1,0.5,1.5,0.9c0.4,0.4,0.7,0.8,0.9,1.2C47.1,10.4,47.3,10.8,47.4,11.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 76
     },
     __self: undefined
   }), __jsx("path", {
@@ -2336,7 +2337,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M55,12.2h2.8l2.1,6.3l1.8-6.3h2.6L61.3,22h-2.6l-2.3-6.7L54.1,22h-2.7l-3.1-9.8H51l1.8,6.3L55,12.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: undefined
   }), __jsx("path", {
@@ -2344,7 +2345,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M72.3,18.5l2.2,0.7c-0.3,0.9-0.8,1.6-1.6,2.2c-0.8,0.6-1.7,0.9-2.9,0.9c-1.4,0-2.6-0.5-3.6-1.4 c-1-0.9-1.5-2.2-1.5-3.8c0-1.5,0.5-2.8,1.4-3.7c1-1,2.1-1.4,3.4-1.4c1.5,0,2.7,0.5,3.6,1.4c0.9,0.9,1.3,2.1,1.3,3.7 c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.3l0,0.1h-7c0,0.6,0.3,1.2,0.8,1.6c0.5,0.4,1,0.6,1.7,0.6C71.2,20,71.9,19.5,72.3,18.5z M67.6,16H72c0-0.5-0.2-1-0.6-1.4c-0.4-0.4-0.9-0.6-1.6-0.6c-0.6,0-1.2,0.2-1.6,0.6C67.9,15,67.7,15.5,67.6,16z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: undefined
   }), __jsx("path", {
@@ -2352,7 +2353,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M83.3,18.5l2.2,0.7c-0.3,0.9-0.8,1.6-1.6,2.2c-0.8,0.6-1.7,0.9-2.9,0.9c-1.4,0-2.6-0.5-3.6-1.4 c-1-0.9-1.5-2.2-1.5-3.8c0-1.5,0.5-2.8,1.4-3.7c1-1,2.1-1.4,3.4-1.4c1.5,0,2.7,0.5,3.6,1.4c0.9,0.9,1.3,2.1,1.3,3.7 c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.3l0,0.1h-7c0,0.6,0.3,1.2,0.8,1.6c0.5,0.4,1,0.6,1.7,0.6C82.2,20,82.9,19.5,83.3,18.5z M78.7,16H83c0-0.5-0.2-1-0.6-1.4c-0.4-0.4-0.9-0.6-1.6-0.6c-0.6,0-1.2,0.2-1.6,0.6C78.9,15,78.7,15.5,78.7,16z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: undefined
   }), __jsx("path", {
@@ -2360,7 +2361,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M91,9.3v2.9h2v2.3h-2v4.1c0,0.4,0.1,0.7,0.3,0.9c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.6,0,0.8-0.1v2.2 c-0.4,0.2-0.9,0.2-1.5,0.2c-1,0-1.7-0.3-2.3-0.8c-0.6-0.5-0.8-1.3-0.8-2.2v-4.6h-1.8v-2.3h0.5c0.5,0,0.9-0.1,1.1-0.4 c0.3-0.3,0.4-0.7,0.4-1.1V9.3H91z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 91
     },
     __self: undefined
   }), __jsx("path", {
@@ -2368,7 +2369,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M97.7,22h-2.6v-9.8h2.5v1.2c0.3-0.5,0.7-0.8,1.2-1.1c0.5-0.3,1.1-0.4,1.7-0.4c1.4,0,2.4,0.5,2.9,1.6 c0.7-1.1,1.7-1.6,3.1-1.6c1,0,1.8,0.3,2.5,0.9c0.7,0.6,1,1.6,1,2.8V22h-2.6v-5.8c0-0.6-0.1-1-0.4-1.3c-0.3-0.3-0.7-0.5-1.3-0.5 c-0.5,0-1,0.2-1.3,0.6c-0.3,0.4-0.5,0.8-0.5,1.4V22h-2.6v-5.8c0-0.6-0.1-1-0.4-1.3c-0.3-0.3-0.7-0.5-1.3-0.5c-0.6,0-1,0.2-1.3,0.5 c-0.3,0.4-0.5,0.8-0.5,1.4V22z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 94
     },
     __self: undefined
   }), __jsx("path", {
@@ -2376,7 +2377,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M119.3,18.5l2.2,0.7c-0.3,0.9-0.8,1.6-1.6,2.2c-0.8,0.6-1.7,0.9-2.9,0.9c-1.4,0-2.6-0.5-3.6-1.4 c-1-0.9-1.5-2.2-1.5-3.8c0-1.5,0.5-2.8,1.4-3.7c1-1,2.1-1.4,3.4-1.4c1.5,0,2.7,0.5,3.6,1.4c0.9,0.9,1.3,2.1,1.3,3.7 c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.3l0,0.1h-7c0,0.6,0.3,1.2,0.8,1.6c0.5,0.4,1,0.6,1.7,0.6C118.2,20,118.9,19.5,119.3,18.5z M114.7,16h4.4c0-0.5-0.2-1-0.6-1.4c-0.4-0.4-0.9-0.6-1.6-0.6c-0.6,0-1.2,0.2-1.6,0.6C114.9,15,114.7,15.5,114.7,16z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 98
     },
     __self: undefined
   }), __jsx("path", {
@@ -2384,7 +2385,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M126.4,16.4V22h-2.6v-9.8h2.6v1.2c0.3-0.5,0.7-0.8,1.2-1.1c0.5-0.3,1.1-0.4,1.6-0.4c1.2,0,2,0.4,2.6,1.1 c0.6,0.7,0.9,1.7,0.9,2.8V22H130v-5.7c0-0.6-0.1-1.1-0.4-1.4c-0.3-0.4-0.8-0.5-1.4-0.5c-0.6,0-1,0.2-1.3,0.6 C126.6,15.3,126.4,15.8,126.4,16.4z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 102
     },
     __self: undefined
   }), __jsx("path", {
@@ -2392,7 +2393,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M141.7,22c-0.1-0.3-0.1-0.6-0.1-1.1c-0.3,0.4-0.6,0.8-1.1,1c-0.5,0.2-1,0.3-1.6,0.3c-1.2,0-2.1-0.4-2.7-1.1 c-0.7-0.7-1-1.7-1-2.8v-6.2h2.6v5.7c0,0.6,0.2,1.1,0.5,1.4c0.3,0.4,0.7,0.5,1.3,0.5c0.6,0,1-0.2,1.4-0.5c0.3-0.4,0.5-0.8,0.5-1.4 v-5.7h2.6v8c0,0.6,0,1.2,0.1,1.8H141.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 105
     },
     __self: undefined
   }))))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Heading"], {
@@ -2418,13 +2419,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "sweetmenu__hero--title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 112
     },
     __self: undefined
   }, "Grow your", __jsx("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 135
     },
     __self: undefined
   }, "brunch spot")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -2440,7 +2441,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "sweetmenu__hero--caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 137
     },
     __self: undefined
   }, "Engage diners and grow your restaurant with just two lines of code."), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
@@ -2450,7 +2451,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "sweetmenu__hero--buttonGroup",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 150
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -2458,7 +2459,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     passHref: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 155
     },
     __self: undefined
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Button"], {
@@ -2466,14 +2467,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "sweetmenu__hero--button",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 156
     },
     __self: undefined
   }, "Request a demo")))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Box"], {
     className: "sweetmenu__demo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 162
     },
     __self: undefined
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -2482,21 +2483,23 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     height: "632px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 163
     },
     __self: undefined
   }))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Flex"], {
     height: "100vh",
     width: "100vw",
     display: "flex",
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     bg: "primary",
     color: "white",
+    p: 5,
     className: "sweetmenu__placeholder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 166
     },
     __self: undefined
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Heading"], {
@@ -2506,13 +2509,96 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     fontSize: [5, 5, 5, 7],
     lineHeight: 1,
     color: "white",
+    mb: 4,
     className: "sweetmenu__placeholder--title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 177
     },
     __self: undefined
-  }, "You probably have questions."))));
+  }, "You probably have questions."), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Text"], {
+    as: "p",
+    fontFamily: "body",
+    fontWeight: "body",
+    fontSize: 4,
+    lineHeight: 1,
+    color: "white",
+    margin: "0",
+    marginBottom: 4,
+    maxWidth: "540px",
+    className: "sweetmenu__placeholder--subtitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188
+    },
+    __self: undefined
+  }, "As we build our site, I am here to personally answer any questions you might have about Sweetmenu.", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200
+    },
+    __self: undefined
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201
+    },
+    __self: undefined
+  }), "I'll have an answer for you within 12 hours, likely much sooner."), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Flex"], {
+    flexDirection: ["column", "row", "row", "row"],
+    className: "sweetmenu__placeholder--buttons",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204
+    },
+    __self: undefined
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+    as: "a",
+    href: "tel:+19022223062",
+    fontFamily: "body",
+    fontWeight: "bold",
+    variant: "inverted",
+    mr: [0, 3, 3, 3],
+    mb: [3, 0, 0, 0],
+    className: "sweetmenu__placeholder--button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205
+    },
+    __self: undefined
+  }, "Call Chris", __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Text"], {
+    fontWeight: "normal",
+    color: "grey",
+    fontSize: 2,
+    mt: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207
+    },
+    __self: undefined
+  }, "(902) 222-3062")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+    as: "a",
+    href: "mailto:chris@sweetmenu.co?subject=I have a question for Chris",
+    fontFamily: "body",
+    fontWeight: "bold",
+    variant: "inverted",
+    className: "sweetmenu__placeholder--button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 209
+    },
+    __self: undefined
+  }, "Email Chris", __jsx(rebass__WEBPACK_IMPORTED_MODULE_7__["Text"], {
+    fontWeight: "normal",
+    color: "grey",
+    fontSize: 2,
+    mt: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211
+    },
+    __self: undefined
+  }, "chris@sweetmenu.co"))))));
 });
 
 /***/ }),
@@ -2558,6 +2644,7 @@ __webpack_require__.r(__webpack_exports__);
   buttons: {
     primary: {
       fontSize: '1.25rem',
+      fontWeight: 'bold',
       padding: '1.25rem 3rem',
       color: 'white',
       bg: 'primary',
@@ -2566,6 +2653,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     inverted: {
       fontSize: '1.25rem',
+      fontWeight: 'bold',
       padding: '1.25rem 3rem',
       color: 'primary',
       bg: 'white',
@@ -2584,7 +2672,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/Chris/sweetmenu/www-edge/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/Chris/sweetmenu/www/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
