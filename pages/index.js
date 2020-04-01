@@ -132,7 +132,7 @@ export default () => {
               }}
               className="sweetmenu__hero--title" >
               Grow your
-              <strong>brunch spot</strong>
+              <strong>pizza joint</strong>
             </Heading>
             <Text
               as="p"
@@ -160,7 +160,7 @@ export default () => {
             </Box>
           </Box>
           <Box className="sweetmenu__demo">
-            <Image src="/static/sweetmenu-demo.png" width="360px" height="640px" style={{ borderRadius: 16, boxShadow: '0px 2px 16px rgba(221, 221, 221, 0.48)' }}/>
+            <Image src="/static/sweetmenu-demo.png" width="360px" height="600px" style={{ borderRadius: 16, boxShadow: '0px 2px 16px rgba(221, 221, 221, 0.48)' }}/>
           </Box>
         </Flex>
         <Flex
